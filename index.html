@@ -6,6 +6,9 @@
     <title>Blog</title>
     <meta name="description" content="Blog Description">
     <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Noto+Sans+JP:wght@100..900&family=Noto+Serif+JP:wght@200..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -21,202 +24,228 @@
                 </div>
             </div>
             <div class="header__gnav">
-                <nav class="gnav">
-                    <ul class="gnav__list">
-                        <li class="gnav__item"><a href="#" class="gnav__link">NEW</a></li>
-                        <li class="gnav__item"><a href="#" class="gnav__link">COLUMN</a></li>
-                        <li class="gnav__item"><a href="#" class="gnav__link">SERIES</a></li>
-                        <li class="gnav__item"><a href="#" class="gnav__link">Q&A</a></li>
-                        <li class="gnav__item"><a href="#" class="gnav__link">CONTACT</a></li>
-                    </ul>
-                </nav>
+                <div class="container">
+                    <nav class="gnav">
+                        <ul class="gnav__list">
+                            <li class="gnav__item"><a href="#" class="gnav__link">NEW</a></li>
+                            <li class="gnav__item"><a href="#" class="gnav__link">COLUMN</a></li>
+                            <li class="gnav__item"><a href="#" class="gnav__link">SERIES</a></li>
+                            <li class="gnav__item"><a href="#" class="gnav__link">Q&A</a></li>
+                            <li class="gnav__item"><a href="#" class="gnav__link">CONTACT</a></li>
+                        </ul>
+                    </nav>
+                </div>
             </div>
         </header>
         <!-- header -->
 
         <!-- pickup -->
         <div class="pickup">
-            <ul class="pickup__list">
-                <li class="pickpup__item">
-                    <img class="pickup__img" src="img/pickup1.jpg" alt="">
-                    <p class="pickup__title">タイトルテキストテキストテキストテキストテキストテキストテキスト</p>
-                    <a class="pickup__link" href="#">READ MORE</a>
-                </li>
-                <li class="pickpup__item">
-                    <img class="pickup__img" src="img/pickup2.jpg" alt="">
-                    <p class="pickup__title">タイトルテキストテキストテキストテキストテキストテキストテキスト</p>
-                    <a class="pickup__link" href="#">READ MORE</a>
-                </li>
-                <li class="pickpup__item">
-                    <img class="pickup__img" src="img/pickup3.jpg" alt="">
-                    <p class="pickup__title">タイトルテキストテキストテキストテキストテキストテキストテキスト</p>
-                    <a class="pickup__link" href="#">READ MORE</a>
-                </li>
-            </ul>
+            <div class="container">
+                <ul class="pickup__list">
+                    <li class="pickup__item">
+                        <img class="pickup__img" src="img/pickup1.jpg" alt="">
+                        <p class="pickup__title">タイトルテキストテキストテキストテキストテキストテキストテキスト</p>
+                        <div class="pickup__readmore readmore">
+                            <a class="pickup__link readmore__link" href="#">READ MORE</a>
+                        </div>
+                    </li>
+                    <li class="pickup__item">
+                        <img class="pickup__img" src="img/pickup2.jpg" alt="">
+                        <p class="pickup__title">タイトルテキストテキストテキストテキストテキストテキストテキスト</p>
+                        <div class="pickup__readmore readmore">
+                            <a class="pickup__link readmore__link" href="#">READ MORE</a>
+                        </div>
+                    </li>
+                    <li class="pickup__item">
+                        <img class="pickup__img" src="img/pickup3.jpg" alt="">
+                        <p class="pickup__title">タイトルテキストテキストテキストテキストテキストテキストテキスト</p>
+                        <div class="pickup__readmore readmore">
+                            <a class="pickup__link readmore__link" href="#">READ MORE</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
         </div>
         <!-- /pickup -->
 
         <!-- content -->
         <div class="content">
+            <div class="container">
+                <div class="inner">
 
-            <!-- main -->
-            <main class="main">
-                <div class="main__body">
-                    <article class="article">
-                        <div class="article__inner">
-                            <h2 class="article__title">タイトルテキストテキストテキストテキストテキスト</h2>
-                            <div class="article__attr">
-                                <time class="article__time" datetime="2020-01-01">2020/01/01</time>
-                                <p class="article__category" rel="tag">カテゴリ1</p>
-                            </div>
-                            <div class="article__img-wrapper">
-                                <img class="article__img" src="img/main1.jpg" alt="">
-                            </div>
-                            <div class="article__desc-wrapper">
-                                <p class="article__desc">本文テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
-                            </div>
-                            <a class="article__link">READ MORE</a>
+                    <!-- main -->
+                    <main class="main">
+                        <div class="main__body">
+
+                            <!-- article -->
+                            <article class="article">
+                                <div class="article__inner">
+                                    <h2 class="article__title">タイトルテキストテキストテキストテキストテキスト</h2>
+                                    <div class="article__attr">
+                                        <time class="article__time" datetime="2020-01-01">2020/01/01</time>
+                                        <p class="article__category" rel="tag">カテゴリ1</p>
+                                    </div>
+                                    <div class="article__img-wrapper">
+                                        <img class="article__img" src="img/main1.jpg" alt="">
+                                    </div>
+                                    <div class="article__desc-wrapper">
+                                        <p class="article__desc">本文テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+                                    </div>
+                                    <div class="article__readmore readmore">
+                                        <a class="article__link readmore__link" href="#">READ MORE</a>
+                                    </div>
+                                </div>
+                            </article>
+                            <article class="article">
+                                <div class="article__inner">
+                                    <h2 class="article__title">タイトルテキストテキストテキストテキストテキスト</h2>
+                                    <div class="article__attr">
+                                        <time class="article__time" datetime="2020-01-01">2020/01/01</time>
+                                        <p class="article__category" rel="tag">カテゴリ1</p>
+                                    </div>
+                                    <div class="article__img-wrapper">
+                                        <img class="article__img" src="img/main2.jpg" alt="">
+                                    </div>
+                                    <div class="article__desc-wrapper">
+                                        <p class="article__desc">本文テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+                                    </div>
+                                    <div class="article__readmore readmore">
+                                        <a class="article__link readmore__link" href="#">READ MORE</a>
+                                    </div>
+                                </div>
+                            </article>
+                            <article class="article">
+                                <div class="article__inner">
+                                    <h2 class="article__title">タイトルテキストテキストテキストテキストテキスト</h2>
+                                    <div class="article__attr">
+                                        <time class="article__time" datetime="2020-01-01">2020/01/01</time>
+                                        <p class="article__category" rel="tag">カテゴリ1</p>
+                                    </div>
+                                    <div class="article__img-wrapper">
+                                        <img class="article__img" src="img/main3.jpg" alt="">
+                                    </div>
+                                    <div class="article__desc-wrapper">
+                                        <p class="article__desc">本文テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+                                    </div>
+                                    <div class="article__readmore readmore">
+                                        <a class="article__link readmore__link" href="#">READ MORE</a>
+                                    </div>
+                                </div>
+                            </article>
+                            <!-- /article -->
+
                         </div>
-                    </article>
-                    <article class="article">
-                        <div class="article__inner">
-                            <h2 class="article__title">タイトルテキストテキストテキストテキストテキスト</h2>
-                            <div class="article__attr">
-                                <time class="article__time" datetime="2020-01-01">2020/01/01</time>
-                                <p class="article__category" rel="tag">カテゴリ1</p>
-                            </div>
-                            <div class="article__img-wrapper">
-                                <img class="article__img" src="img/main2.jpg" alt="">
-                            </div>
-                            <div class="article__desc-wrapper">
-                                <p class="article__desc">本文テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
-                            </div>
-                            <a class="article__link">READ MORE</a>
+                    </main>
+                    <!-- /main -->
+
+                    <!-- sidebar -->
+                    <aside class="sidebar">
+                        <div class="sidebar__body">
+
+                            <!-- author -->
+                            <section class="author">
+                                <div class="author__img-wrapper">
+                                    <img class="author__img" src="img/author.jpg" alt="" width="130px" height="130px">
+                                </div>
+                                <p class="author__name section__title section__title--sidebar">Name Name</p>
+                                <p class="author__profile">プロフィールテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+                            </section>
+                            <!-- /author -->
+
+                            <!-- ranking -->
+                            <section class="ranking">
+                                <h2 class="section__title section__title--sidebar">Ranking</h2>
+                                <div class="ranking__body">
+                                    <ul class="ranking__list">
+                                        <li class="ranking__item">
+                                            <img class="ranking__img" src="img/ranking1.jpg" alt="">
+                                            <p class="ranking__title">タイトルテキストテキストテキストテキストテキストテキストテキスト</p>
+                                        </li>
+                                        <li class="ranking__item">
+                                            <img class="ranking__img" src="img/ranking2.jpg" alt="">
+                                            <p class="ranking__title">タイトルテキストテキストテキストテキストテキストテキストテキスト</p>
+                                        </li>
+                                        <li class="ranking__item">
+                                            <img class="ranking__img" src="img/ranking3.jpg" alt="">
+                                            <p class="ranking__title">タイトルテキストテキストテキストテキストテキストテキストテキスト</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </section>
+                            <!-- /ranking -->
+
+                            <!-- archive-->
+                            <section class="archive">
+                                <h2 class="section__title section__title--sidebar">Archive</h2>
+                                <div class="archive__body">
+                                    <ul class="archive__list">
+                                        <li class="archive__item">
+                                            <a class="archive__link" href="#">XXXX年XX月(XX)</a>
+                                        </li>
+                                        <li class="archive__item">
+                                            <a class="archive__link" href="#">XXXX年XX月(XX)</a>
+                                        </li>
+                                        <li class="archive__item">
+                                            <a class="archive__link" href="#">XXXX年XX月(XX)</a>
+                                        </li>
+                                        <li class="archive__item">
+                                            <a class="archive__link" href="#">XXXX年XX月(XX)</a>
+                                        </li>
+                                        <li class="archive__item">
+                                            <a class="archive__link" href="#">XXXX年XX月(XX)</a>
+                                        </li>
+                                        <li class="archive__item">
+                                            <a class="archive__link" href="#">XXXX年XX月(XX)</a>
+                                        </li>
+                                        <li class="archive__item">
+                                            <a class="archive__link" href="#">XXXX年XX月(XX)</a>
+                                        </li>
+                                        <li class="archive__item">
+                                            <a class="archive__link" href="#">XXXX年XX月(XX)</a>
+                                        </li>
+                                        <li class="archive__item">
+                                            <a class="archive__link" href="#">XXXX年XX月(XX)</a>
+                                        </li>
+                                        <li class="archive__item">
+                                            <a class="archive__link" href="#">XXXX年XX月(XX)</a>
+                                        </li>
+                                        <li class="archive__item">
+                                            <a class="archive__link" href="#">XXXX年XX月(XX)</a>
+                                        </li>
+                                        <li class="archive__item">
+                                            <a class="archive__link" href="#">XXXX年XX月(XX)</a>
+                                        </li>
+                                        <li class="archive__item">
+                                            <a class="archive__link" href="#">XXXX年XX月(XX)</a>
+                                        </li>
+                                        <li class="archive__item">
+                                            <a class="archive__link" href="#">XXXX年XX月(XX)</a>
+                                        </li>
+                                        <li class="archive__item">
+                                            <a class="archive__link" href="#">XXXX年XX月(XX)</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </section>
+                            <!-- /archive-->
                         </div>
-                    </article>
-                    <article class="article">
-                        <div class="article__inner">
-                            <h2 class="article__title">タイトルテキストテキストテキストテキストテキスト</h2>
-                            <div class="article__attr">
-                                <time class="article__time" datetime="2020-01-01">2020/01/01</time>
-                                <p class="article__category" rel="tag">カテゴリ1</p>
-                            </div>
-                            <div class="article__img-wrapper">
-                                <img class="article__img" src="img/main3.jpg" alt="">
-                            </div>
-                            <div class="article__desc-wrapper">
-                                <p class="article__desc">本文テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
-                            </div>
-                            <a class="article__link">READ MORE</a>
-                        </div>
-                    </article>
+                    </aside>
+                    <!-- /sidebar -->
+
                 </div>
-            </main>
-            <!-- /main -->
-
-            <!-- sidebar -->
-            <aside class="sidebar">
-
-                <!-- author -->
-                <section class="author sidebar__section">
-                    <div class="author__img-wrapper">
-                        <img class="author__img" src="img/author.jpg" alt="" width="130px" height="130px">
-                    </div>
-                    <p class="author__name section__title">Name Name</p>
-                    <p class="author__profile">プロフィールテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
-                </section>
-                <!-- /author -->
-
-                <!-- ranking -->
-                <section class="ranking sidebar__section">
-                    <h2 class="section__title">Ranking</h2>
-                    <div class="ranking__list-wrapper">
-                        <ul class="ranking__list">
-                            <li class="ranking__item">
-                                <img class="ranking__img" src="img/ranking1.jpg" alt="">
-                                <p class="ranking__title">タイトルテキストテキストテキストテキストテキストテキストテキスト</p>
-                            </li>
-                            <li class="ranking__item">
-                                <img class="ranking__img" src="img/ranking2.jpg" alt="">
-                                <p class="ranking__title">タイトルテキストテキストテキストテキストテキストテキストテキスト</p>
-                            </li>
-                            <li class="ranking__item">
-                                <img class="ranking__img" src="img/ranking3.jpg" alt="">
-                                <p class="ranking__title">タイトルテキストテキストテキストテキストテキストテキストテキスト</p>
-                            </li>
-                        </ul>
-                    </div>
-                </section>
-                <!-- /ranking -->
-
-                <!-- archive-->
-                <section class="archive sidebar__section">
-                    <div class="archive__list-wrapper">
-                        <ul class="archive__list">
-                            <li class="archive__item">
-                                <a class="arcive__link" href="#">XXXX年XX月(XX)</a>
-                            </li>
-                            <li class="archive__item">
-                                <a class="arcive__link" href="#">XXXX年XX月(XX)</a>
-                            </li>
-                            <li class="archive__item">
-                                <a class="arcive__link" href="#">XXXX年XX月(XX)</a>
-                            </li>
-                            <li class="archive__item">
-                                <a class="arcive__link" href="#">XXXX年XX月(XX)</a>
-                            </li>
-                            <li class="archive__item">
-                                <a class="arcive__link" href="#">XXXX年XX月(XX)</a>
-                            </li>
-                            <li class="archive__item">
-                                <a class="arcive__link" href="#">XXXX年XX月(XX)</a>
-                            </li>
-                            <li class="archive__item">
-                                <a class="arcive__link" href="#">XXXX年XX月(XX)</a>
-                            </li>
-                            <li class="archive__item">
-                                <a class="arcive__link" href="#">XXXX年XX月(XX)</a>
-                            </li>
-                            <li class="archive__item">
-                                <a class="arcive__link" href="#">XXXX年XX月(XX)</a>
-                            </li>
-                            <li class="archive__item">
-                                <a class="arcive__link" href="#">XXXX年XX月(XX)</a>
-                            </li>
-                            <li class="archive__item">
-                                <a class="arcive__link" href="#">XXXX年XX月(XX)</a>
-                            </li>
-                            <li class="archive__item">
-                                <a class="arcive__link" href="#">XXXX年XX月(XX)</a>
-                            </li>
-                            <li class="archive__item">
-                                <a class="arcive__link" href="#">XXXX年XX月(XX)</a>
-                            </li>
-                            <li class="archive__item">
-                                <a class="arcive__link" href="#">XXXX年XX月(XX)</a>
-                            </li>
-                            <li class="archive__item">
-                                <a class="arcive__link" href="#">XXXX年XX月(XX)</a>
-                            </li>
-                        </ul>
-                    </div>
-                </section>
-                <!-- /archive-->
-
-            </aside>
-            <!-- /sidebar -->
-
+            </div>
         </div>
         <!-- /content -->
 
         <!-- footer -->
         <footer class="footer">
             <div class="container">
-                <div class="footer__inner">
+                <div class="footer__body">
 
                     <!-- about -->
-                    <section class="about footer__section">
-                        <h2 class="section__title">About</h2>
+                    <section class="about">
+                        <h2 class="section__title section__title--footer">About</h2>
                         <p class="about__text">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
                         <ul class="about__list">
                             <li class="about__item">
@@ -233,8 +262,8 @@
                     <!-- /about -->
 
                     <!-- menu -->
-                    <section class="menu footer__section">
-                        <h2 class="section__title">Menu</h2>
+                    <section class="menu">
+                        <h2 class="section__title section__title--footer">Menu</h2>
                         <ul class="menu__list">
                             <li class="menu__item">
                                 <a class="menu__link" href="#">NEW</a>
@@ -256,8 +285,8 @@
                     <!-- /menu -->
 
                     <!-- twitter -->
-                    <section class="twitter footer__section">
-                        <h2 class="section__title">Twitter</h2>
+                    <section class="twitter">
+                        <h2 class="section__title section__title--footer">Twitter</h2>
                         <div class="twitter__embded"></div>
                     </section>
 
